@@ -8,6 +8,7 @@ public class ArraySumDriver {
 		int index = 0;
 
 		Integer[] myArray = new Integer[ARRAY_SIZE];
+		Int[] arrayFib = {0, 0, 0, 0, 0};
 		ArraySum arraySum = new ArraySum();
 		
 		myArray[index++] = 3;
@@ -25,7 +26,7 @@ public class ArraySumDriver {
 		sum = arraySum.sumOfArray(myArray, 5);
 		System.out.println(sum);
 		
-		System.out.println(arraySum.fibonacchi(myArray, 5);
+		System.out.println(arraySum.fibonacchi(arrayFib, 5);
 	}
 
 }
