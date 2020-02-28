@@ -14,8 +14,18 @@ public class ArraySum {
 			return 0;
 	}
 	
-	public int fibonacchi() {
-		
+	public int fibonacchi(Integer[] value, int n) {
+		if(n==0) return 1;
+		if(value[n]!=0) return value[n];
+		if(value[n-1]!=0){
+			value[n]=n*value[n-1];
+			return value[n];
+		}
+		else{
+			value[n-1]=fact(n-1);
+			value[n]=n*value[n-1];
+			return value[n];
+		}
 	}
 
 }
