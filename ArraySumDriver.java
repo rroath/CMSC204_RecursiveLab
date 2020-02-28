@@ -24,6 +24,8 @@ public class ArraySumDriver {
 		
 		sum = arraySum.sumOfArray(myArray, 5);
 		System.out.println(sum);
+		
+		System.out.println(arraySum.fibonacchi(myArray, 5);
 	}
 
 }
